@@ -1,0 +1,8 @@
+# Ignore the "dataset" folder
+dataset/
+
+# Ignore registered_faces.csv
+registered_faces.csv
+
+__pycache__
+.ipynb_checkpoints
