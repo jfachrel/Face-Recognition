@@ -100,7 +100,7 @@ print(res.json())
 
 ## Face recognition with streamlit
 
-<img>
+<img src="https://github.com/jfachrel/Face-Recognition/blob/main/assets/streamlit.png">
 
 clone this repo
 
