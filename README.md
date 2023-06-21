@@ -11,6 +11,10 @@
 
 example dataset: [face_recognition_dataset](https://drive.google.com/drive/folders/1uqJ0OP0RtV9hAuqQ4FMzM3nJL7YRJDT_?usp=sharing)
 
+Accuracy and F1 Score on a Dataset of 25 Asian Male Faces:
+
+<img src="https://github.com/jfachrel/Face-Recognition/blob/main/assets/accuracy%20and%20f1%20score.png">
+
 ## How to run this app
 
 run the API via docker:
