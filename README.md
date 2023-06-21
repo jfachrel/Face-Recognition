@@ -18,9 +18,8 @@ Accuracy and F1 Score on a Dataset of 25 Asian Male Faces:
 ## How to run this app
 
 run the API via docker:
-
 ```bash
-docker run -it -p 5000:5000  jfachrel/face_recognition:latest
+docker run -it -p 5000:5000 jfachrel/face_recognition:latest
 ```
 
 ### Register
@@ -107,21 +106,26 @@ print(res.json())
 <img src="https://github.com/jfachrel/Face-Recognition/blob/main/assets/streamlit.png">
 
 clone this repo
-
 ```bash
 git clone https://github.com/jfachrel/Face-Recognition.git
 ```
 
-install streamlit: `pip install streamlit`
-
-run the API via docker:
-
+change the working directory
 ```bash
-docker run -it -p 5000:5000  jfachrel/face_recognition:latest
+cd Face-Recognition
+```
+
+install streamlit
+```bash
+pip install streamlit
+```
+
+run the API via docker
+```bash
+docker run -it -p 5000:5000 jfachrel/face_recognition:latest
 ```
 
 open other terminal and run streamlit
-
 ```bash
 streamlit run Home.py
 ```
