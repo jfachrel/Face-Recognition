@@ -17,11 +17,13 @@ COPY requirements.txt .
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-# Copy the face_recognition.py file
+# Copy python files
 COPY face_recognition.py .
+COPY main.py .
 
 # Expose the ports for Flask and Streamlit
-EXPOSE 5000
+EXPOSE 8000:8000
 
 # Set the entry point command
-CMD ["python", "face_recognition.py"]
+CMD ["python", "main.py"]
+

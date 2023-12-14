@@ -1,0 +1,21 @@
+version: '3.7'
+
+networks:
+  fr:
+
+services:
+  streamlit:
+    container_name: streamlit
+    image: jfachrel/fr_streamlit
+    ports:
+      - "8501:8501"
+    networks: 
+      - fr
+  api:
+    container_name: api
+    image: jfachrel/fr_api
+    ports:
+      - "8000:8000"
+    networks:
+      - fr
+
