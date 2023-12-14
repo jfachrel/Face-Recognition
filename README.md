@@ -19,10 +19,14 @@ clone this repo:
 git clone https://github.com/jfachrel/Face-Recognition.git
 ```
 
-- via docker-compose:
+- Via docker-compose:
 ```bash
 docker-compose up
 ```
+
+or
+
+- Open the `run.sh` file
 
 ## API Format
 
