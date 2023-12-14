@@ -17,6 +17,7 @@ Accuracy and F1 Score on a Dataset of 25 Asian Male Faces:
 **Clone this repo:**
 ```bash
 git clone https://github.com/jfachrel/Face-Recognition.git
+cd Face-Recognition
 ```
 
 - Via docker-compose:
